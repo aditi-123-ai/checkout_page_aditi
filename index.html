@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>checkout page</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <section class="checkout">
+            <div class="main">
+                <div class="checkout__details">
+                    <div class="checkout__info">
+                        <div class="checkout__yourDetail">
+                            <h2 class="title">Your Details</h2>
+                            <div class="name info">
+                                <i class="uil uil-user button">
+                                    <input type="text" placeholder= "Frist Name" />
+                                </i>
+                                <i class="uil uil-user button lastname">
+                                    <input type="text" placeholder="Last Name">
+                                </i>
+                            </div>
+                            <div class="name tel mobile">
+                                <i class="uil uil-phone button">
+                                    <input type="tel" placeholder= "Phone Number" />
+                                </i>
+                                <i class="uil uil-envelope button lastname">
+                                    <input type="email" placeholder="Email">
+                                </i>
+                                
+                            </div>
+                        </div>
+                        <div class="checkout__yourDetail">
+                            <h2 class="title delivery">Delivery Details</h2>
+                            <div class="name address">
+                                <textarea placeholder="📍Address" rows="4" cols="50" name="address" style="border: none; background-color: rgb(252, 216, 216);
+                                margin-top: 130px; width: 100%; border-radius: 30px; height: 20vh; padding: 10px; font-size: 1rem; outline: none;"></textarea>
+                            </div>
+                        </div>
+                        <div class="checkout__Add checkout__yourDetail">
+                            <img class="img" src="https://assets.visme.co/templates/banners/thumbnails/i_Furniture-Coupon_full.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout__order">
+                    <h2 class="title"><i class="uil uil-shopping-cart-alt"></i>Order Summary</h2>
+                    
+                    <div class="order__details">
+                        <div class="total">
+                            <div class="check">
+                            <h2>Total Price</h2>
+                            <p>₹346</p>
+                            </div>
+                        </div>
+                        <div class="cart">
+                            <table>
+                                <tr>
+                                    <th>Furniture</th>
+                                    <th>Month</th>
+                                    <th>Price</th>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit</td>
+                                    <td>1</td>
+                                    <td>₹346</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit</td>
+                                    <td>1</td>
+                                    <td>₹346</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="checkout__button">
+                        <button>
+                            Checkout <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
